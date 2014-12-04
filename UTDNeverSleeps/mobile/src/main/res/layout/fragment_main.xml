@@ -33,29 +33,34 @@
                 android:id="@+id/button0"
                 android:background="@drawable/quad_buttons"
                 android:layout_height="match_parent"
-                android:layout_width="wrap_content"
                 android:layout_weight="50"
                 android:layout_gravity="center_vertical"
-                android:text="Food On-Campus"
+                android:text="On-Campus\nFood"
+                android:textSize="25dp"
                 android:onClick="selfDestruct"/>
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="5" />
+                android:layout_weight="6" />
             <Button
                 android:id="@+id/button1"
                 android:background="@drawable/quad_buttons"
                 android:layout_height="match_parent"
-                android:layout_width="wrap_content"
+
                 android:layout_weight="50"
                 android:layout_gravity="center_vertical"
-                android:text="Food Off-Campus"
+                android:text="Off-Campus\nFood"
+                android:textSize="25dp"
                 android:onClick="selfDestruct"/>
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
         </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -70,23 +75,23 @@
                 android:id="@+id/button2"
                 android:background="@drawable/quad_buttons"
                 android:layout_height="match_parent"
-                android:layout_width="wrap_content"
                 android:layout_weight="50"
                 android:layout_gravity="center_vertical"
-                android:text="Button"
+                android:text="Events"
+                android:textSize="25dp"
                 android:onClick="selfDestruct"/>
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1" />
+                android:layout_weight="6" />
             <Button
                 android:id="@+id/button3"
                 android:background="@drawable/quad_buttons"
                 android:layout_height="match_parent"
-                android:layout_width="wrap_content"
                 android:layout_weight="50"
                 android:layout_gravity="center_vertical"
-                android:text="Energy"
+                android:text="Energy\nDrinks"
+                android:textSize="25dp"
                 android:onClick="selfDestruct"/>
             <Space
                 android:layout_width="wrap_content"
@@ -96,10 +101,9 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:textAlignment="center"
-            android:text="BUY MORE CANADOUGH"
-            android:textSize="30dp"/>
+            android:layout_height="80dp"
+            android:text="       BUY MORE CANADOUGH\n                         BITCH"
+            android:textSize="25dp"/>
     </LinearLayout>
 
 </RelativeLayout>

@@ -11,18 +11,8 @@
         android:centerX="0"
         android:centerY="0"
         android:centerColor="#008542"
-        android:endColor="#aa1a31"
+        android:endColor="#ff61aa7f"
         android:gradientRadius="300"
         android:startColor="#008542"
         android:type="linear" />
-
-    <!--padding
-        android:left="integer"
-        android:top="integer"
-        android:right="integer"
-        android:bottom="integer" /-->
-
-    <!--size
-        android:width="integer"
-        android:height="integer" /-->
 </shape>
