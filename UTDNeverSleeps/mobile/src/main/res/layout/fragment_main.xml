@@ -46,12 +46,11 @@
                 android:id="@+id/button1"
                 android:background="@drawable/quad_buttons"
                 android:layout_height="match_parent"
-
                 android:layout_weight="50"
                 android:layout_gravity="center_vertical"
                 android:text="Off-Campus\nFood"
                 android:textSize="25dp"
-                android:onClick="selfDestruct"/>
+                android:onClick="activity_off_campus_food(view)"/>
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -99,10 +98,14 @@
                 android:layout_weight="1" />
         </LinearLayout>
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="       BUY MORE CANADOUGH\n                         BITCH"
+            android:text="       "
             android:textSize="25dp"/>
     </LinearLayout>
 
